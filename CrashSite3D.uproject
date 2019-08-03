@@ -3,6 +3,17 @@
 	"EngineAssociation": "{B4C8DA6C-4E61-9EFB-8C8C-EEA1A089210D}",
 	"Category": "",
 	"Description": "",
+	"Plugins": [
+		{
+			"Name": "SunPosition",
+			"Enabled": true
+		},
+		{
+			"Name": "AutoSizeComments",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ae89a2c4ab384de0a3f213b23de324f3"
+		}
+	],
 	"TargetPlatforms": [
 		"WindowsNoEditor"
 	]
