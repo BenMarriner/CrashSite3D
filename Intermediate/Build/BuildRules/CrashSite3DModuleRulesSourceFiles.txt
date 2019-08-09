@@ -1,1 +1,3 @@
 F:\Epic Games\CrashSite3D\Plugins\AutoSizeComments\Source\AutoSizeComments\AutoSizeComments.Build.cs
+F:\Epic Games\CrashSite3D\Intermediate\Source\CrashSite3D.Build.cs
+F:\Epic Games\CrashSite3D\Intermediate\Source\CrashSite3D.Target.cs

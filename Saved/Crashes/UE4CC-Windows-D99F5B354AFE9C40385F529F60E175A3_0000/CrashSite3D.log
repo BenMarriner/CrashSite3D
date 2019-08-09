@@ -1,0 +1,1272 @@
+﻿Log file open, 08/09/19 17:59:41
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CrashSite3D
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.930380
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin SunPosition
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AutoSizeComments
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-0
+LogInit: Engine Version: 4.22.3-0+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Jul 26 2019 07:35:40
+LogInit: Compiled with Visual C++: 19.16.27031.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: F:/Epic Games/UnrealEngine/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Engine.ini]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:1]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.08.09-07.59.45:768][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DOF.Algorithm:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:2]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.08.09-07.59.45:769][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.08.09-07.59.45:781][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.08.09-07.59.45:781][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.08.09-07.59.45:781][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.08.09-07.59.45:781][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.08.09-07.59.45:781][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.08.09-07.59.45:781][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.08.09-07.59.45:781][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.08.09-07.59.45:781][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.08.09-07.59.45:781][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Engine.ini]
+[2019.08.09-07.59.45:782][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Engine.ini]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Engine.ini]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.08.09-07.59.45:782][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Engine.ini]
+[2019.08.09-07.59.45:782][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Engine.ini]
+[2019.08.09-07.59.45:866][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.09-07.59.45:866][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:866][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.09-07.59.45:867][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.09-07.59.45:882][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.09-07.59.45:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.09-07.59.45:980][  0]LogHAL: Display: Platform has ~ 32 GB [34312450048 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.08.09-07.59.45:986][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.09-07.59.45:986][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.09-07.59.45:986][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Scalability.ini]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.09-07.59.45:987][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.08.09-07.59.46:010][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.08.09-07.59.46:010][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.08.09-07.59.46:010][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Epic Games/CrashSite3D/Saved/Config/Windows/Engine.ini]
+[2019.08.09-07.59.46:021][  0]LogInit: Computer: GOOLOG-PC
+[2019.08.09-07.59.46:021][  0]LogInit: User: Goolog
+[2019.08.09-07.59.46:021][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.08.09-07.59.46:021][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.08.09-07.59.46:021][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.08.09-07.59.46:021][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.09-07.59.46:021][  0]LogMemory: Process Physical Memory: 105.29 MB used, 105.29 MB peak
+[2019.08.09-07.59.46:021][  0]LogMemory: Process Virtual Memory: 92.95 MB used, 92.95 MB peak
+[2019.08.09-07.59.46:021][  0]LogMemory: Physical Memory: 9513.79 MB used,  23209.11 MB free, 32722.90 MB total
+[2019.08.09-07.59.46:021][  0]LogMemory: Virtual Memory: 4666.77 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.08.09-07.59.47:735][  0]LogInit: Using OS detected language (en-US).
+[2019.08.09-07.59.47:735][  0]LogInit: Using OS detected locale (en-AU).
+[2019.08.09-07.59.47:932][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.08.09-07.59.48:994][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.09-07.59.49:833][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.09-07.59.49:833][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.09-07.59.55:557][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.09-07.59.55:557][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.09-07.59.55:652][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.08.09-07.59.55:652][  0]LogD3D11RHI:       11127/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.08.09-07.59.55:669][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.09-07.59.55:669][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.09-07.59.55:669][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.09-07.59.55:681][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.09-07.59.55:681][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.09-07.59.55:681][  0]LogWindows: EnumDisplayDevices:
+[2019.08.09-07.59.55:681][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.08.09-07.59.55:681][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2019.08.09-07.59.55:681][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.08.09-07.59.55:682][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.08.09-07.59.55:682][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.08.09-07.59.55:682][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.08.09-07.59.55:682][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
+[2019.08.09-07.59.55:682][  0]LogD3D11RHI:      Driver Date: 7-17-2019
+[2019.08.09-07.59.55:682][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.08.09-07.59.55:741][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.09-07.59.55:918][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.09-07.59.55:929][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.09-07.59.55:929][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.09-07.59.55:982][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.08.09-07.59.57:145][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.08.09-07.59.57:204][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.08.09-07.59.57:260][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.08.09-07.59.57:346][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.08.09-07.59.57:453][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.08.09-07.59.57:567][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.08.09-07.59.57:617][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.08.09-07.59.57:666][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.08.09-07.59.57:727][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.08.09-07.59.57:841][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.08.09-07.59.57:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.08.09-07.59.57:963][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.08.09-07.59.58:242][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.08.09-07.59.58:242][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.08.09-07.59.58:323][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.08.09-07.59.58:323][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.08.09-07.59.58:481][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.08.09-07.59.58:481][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.08.09-07.59.58:481][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.09-07.59.58:809][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.08.09-08.00.00:255][  0]LogShaderCompilers: Guid format shader working directory is 23 characters bigger than the processId version (../../../../CrashSite3D/Intermediate/Shaders/WorkingDirectory/3664/).
+[2019.08.09-08.00.00:256][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/goolo/AppData/Local/Temp/UnrealShaderWorkingDir/5EEE6778431A4A3CA6AE88B4A435A863/'.
+[2019.08.09-08.00.00:293][  0]LogXGEController: Cleaning working directory: C:/Users/goolo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.08.09-08.00.00:293][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.09-08.00.00:294][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.09-08.00.00:294][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.09-08.00.06:690][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.09-08.00.08:681][  0]LogDerivedDataCache: Loaded boot cache 1.99s 66MB ../../../../CrashSite3D/DerivedDataCache/Boot.ddc.
+[2019.08.09-08.00.08:681][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../CrashSite3D/DerivedDataCache/Boot.ddc
+[2019.08.09-08.00.08:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../CrashSite3D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.09-08.00.08:681][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.09-08.00.08:734][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.09-08.00.08:734][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.08.09-08.00.08:751][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.08.09-08.00.08:751][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.09-08.00.08:751][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.09-08.00.09:177][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.09-08.00.09:689][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.09-08.00.10:976][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.09-08.00.18:229][  0]LogAssetRegistry: FAssetRegistry took 0.0849 seconds to start up
+[2019.08.09-08.00.24:441][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.09-08.00.35:899][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.09-08.00.35:899][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.08.09-08.00.35:899][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.09-08.00.35:899][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.08.09-08.00.35:899][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.08.09-08.00.37:844][  0]LogNetVersion: CrashSite3D 1.0.0, NetCL: 0, EngineNetVer: 10, GameNetVer: 0 (Checksum: 852609680)
+[2019.08.09-08.00.51:402][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.188988 seconds
+[2019.08.09-08.00.51:443][  0]LogUObjectArray: 42194 objects as part of root set at end of initial load.
+[2019.08.09-08.00.51:443][  0]LogUObjectAllocator: 7322816 out of 0 bytes used by permanent object pool.
+[2019.08.09-08.00.51:443][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.09-08.01.26:514][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.09-08.01.26:572][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.09-08.01.27:806][  0]SourceControl: Source control is disabled
+[2019.08.09-08.01.32:464][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.09-08.01.33:500][  0]LogOcInput: OculusInput pre-init called
+[2019.08.09-08.01.38:619][  0]LogEngine: Initializing Engine...
+[2019.08.09-08.01.38:685][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.09-08.01.38:685][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.08.09-08.01.40:533][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.09-08.01.40:827][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.09-08.01.41:020][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.09-08.01.41:226][  0]LogInit: FAudioDevice initialized.
+[2019.08.09-08.01.41:226][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.09-08.01.43:023][  0]LogDerivedDataCache: Saved boot cache 1.80s 66MB ../../../../CrashSite3D/DerivedDataCache/Boot.ddc.
+[2019.08.09-08.01.43:225][  0]LogInit: Texture streaming: Enabled
+[2019.08.09-08.01.43:526][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.09-08.01.43:526][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={B1FF7016-4867-F300-0F2F-0495FB2B24A4}
+[2019.08.09-08.01.43:793][  0]LogInit: Transaction tracking system initialized
+[2019.08.09-08.01.44:345][  0]BlueprintLog: New page: Editor Load
+[2019.08.09-08.01.46:729][  0]LocalizationService: Localization service is disabled
+[2019.08.09-08.01.52:681][  0]LogFileCache: Scanning file cache for directory 'F:/Epic Games/CrashSite3D/Content/' took 0.09s
+[2019.08.09-08.01.52:681][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.09-08.01.52:681][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.09-08.02.00:603][  0]LogSlate: Took 0.070515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.09-08.02.08:765][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.08.09-08.02.08:896][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.09-08.02.08:947][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.09-08.02.09:213][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.09-08.02.09:430][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.09-08.02.09:480][  0]Cmd: MAP LOAD FILE="../../../../CrashSite3D/Content/AccidentMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.09-08.02.09:655][  0]LightingResults: New page: Lighting Build
+[2019.08.09-08.02.09:753][  0]MapCheck: New page: Map Check
+[2019.08.09-08.02.09:753][  0]LightingResults: New page: Lighting Build
+[2019.08.09-08.02.09:997][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.08.09-08.02.27:092][  0]LogAIModule: Creating AISystem for world AccidentMap
+[2019.08.09-08.02.27:417][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.09-08.02.27:537][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2019.08.09-08.02.27:537][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.09-08.02.27:537][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.078ms to complete.
+[2019.08.09-08.02.27:537][  0]LogFileHelpers: Loading map 'AccidentMap' took 18.106
+[2019.08.09-08.02.28:324][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.02.28:340][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.02.28:349][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.02.28:356][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.02.28:516][  0]LogCollectionManager: Loaded 0 collections in 0.001991 seconds
+[2019.08.09-08.02.28:629][  0]LogFileCache: Scanning file cache for directory 'F:/Epic Games/CrashSite3D/Saved/Collections/' took 0.01s
+[2019.08.09-08.02.28:629][  0]LogFileCache: Scanning file cache for directory 'F:/Epic Games/CrashSite3D/Content/Developers/Goolog/Collections/' took 0.01s
+[2019.08.09-08.02.28:629][  0]LogFileCache: Scanning file cache for directory 'F:/Epic Games/CrashSite3D/Content/Collections/' took 0.01s
+[2019.08.09-08.02.28:629][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.08.09-08.02.28:655][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2733 classes and 663 folders.
+[2019.08.09-08.02.28:687][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.08.09-08.02.28:757][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.28:803][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.28:811][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.28:861][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.28:903][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.28:935][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.28:968][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.28:981][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:017][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:023][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:036][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:043][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:051][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:057][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:063][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:070][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:077][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:084][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:088][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:110][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:117][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:168][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.29:200][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.09-08.02.32:939][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.08.09-08.02.33:040][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.08.09-08.02.34:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.02.34:245][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.02.34:255][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.02.34:264][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.02.34:385][  0]LogSlate: Took 0.067471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.09-08.02.34:414][  0]LogSlate: Took 0.016393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.09-08.02.34:468][  0]LogSlate: Took 0.036968 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.08.09-08.02.35:321][  0]LogRenderer: Reallocating scene render targets to support 1140x608 Format 10 NumSamples 1 (Frame:1).
+[2019.08.09-08.02.35:812][  0]LogSlate: Took 0.052937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.09-08.02.35:853][  0]LogRenderer: Reallocating scene render targets to support 1352x868 Format 10 NumSamples 1 (Frame:2).
+[2019.08.09-08.02.36:043][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.08.09-08.02.36:044][  0]LogLoad: (Engine Initialization) Total time: 243.01 seconds
+[2019.08.09-08.02.36:044][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.09-08.02.36:208][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.09-08.02.36:420][  1]LogAssetRegistry: Asset discovery search completed in 138.2131 seconds
+[2019.08.09-08.02.36:427][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.09-08.02.36:427][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000294 seconds (updated 0 objects)
+[2019.08.09-08.02.37:106][ 45]LogSlate: Took 0.001453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.09-08.02.43:975][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.09-08.02.45:996][  1]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_CityModel.BP_CityModel
+[2019.08.09-08.02.47:437][  1]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.08.09-08.02.49:568][  1]LogSlate: Took 0.014989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.09-08.02.50:135][  2]LogSlate: Took 0.021694 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.08.09-08.02.55:115][472]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_AccidentManager.BP_AccidentManager
+[2019.08.09-08.05.05:018][613]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_AccidentMarker.BP_AccidentMarker
+[2019.08.09-08.09.15:876][657]LogEditorTransaction: Undo Move Node
+[2019.08.09-08.09.16:154][679]LogEditorTransaction: Undo Move Node
+[2019.08.09-08.09.16:960][764]LogEditorTransaction: Redo Move Node
+[2019.08.09-08.09.17:124][778]LogEditorTransaction: Redo Move Node
+[2019.08.09-08.09.20:087][116]BlueprintLog: New page: Compile BP_CityModel
+[2019.08.09-08.09.20:529][116]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.08.09-08.09.20:763][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CityModel" FILE="../../../../CrashSite3D/Content/Blueprints/BP_CityModel.uasset" SILENT=true
+[2019.08.09-08.09.21:588][116]LogSavePackage: Moving '../../../../CrashSite3D/Saved/BP_CityModelF632496D4269897D048FBD97243410F3.tmp' to '../../../../CrashSite3D/Content/Blueprints/BP_CityModel.uasset'
+[2019.08.09-08.09.34:608][387]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Save.BP_Save
+[2019.08.09-08.11.15:655][364]BlueprintLog: New page: Compile BP_Save
+[2019.08.09-08.11.15:777][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.08.09-08.11.15:924][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Save" FILE="../../../../CrashSite3D/Content/Blueprints/BP_Save.uasset" SILENT=true
+[2019.08.09-08.11.15:942][364]LogSavePackage: Moving '../../../../CrashSite3D/Saved/BP_Save015A2F884197DDAF32A714B106681952.tmp' to '../../../../CrashSite3D/Content/Blueprints/BP_Save.uasset'
+[2019.08.09-08.12.26:424][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Save" FILE="../../../../CrashSite3D/Content/Blueprints/BP_Save.uasset" SILENT=true
+[2019.08.09-08.12.26:442][466]LogSavePackage: Moving '../../../../CrashSite3D/Saved/BP_SaveC04CD0E344AE27B12512819129A4900F.tmp' to '../../../../CrashSite3D/Content/Blueprints/BP_Save.uasset'
+[2019.08.09-08.12.26:454][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AccidentManager" FILE="../../../../CrashSite3D/Content/Blueprints/BP_AccidentManager.uasset" SILENT=true
+[2019.08.09-08.12.26:515][466]LogSavePackage: Moving '../../../../CrashSite3D/Saved/BP_AccidentManagerA93F21A3452EB0173B01AD936E5A12C3.tmp' to '../../../../CrashSite3D/Content/Blueprints/BP_AccidentManager.uasset'
+[2019.08.09-08.12.46:679][828]LogSlate: Window 'BP_CityModel' being destroyed
+[2019.08.09-08.12.46:819][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.08.09-08.12.55:488][845]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BlueprintInterfaces/BPI_ClickInteraction.BPI_ClickInteraction
+[2019.08.09-08.13.14:048][968]LogSlate: Window 'BPI_ClickInteraction' being destroyed
+[2019.08.09-08.13.30:588][881]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Enums/AllInfoList.AllInfoList
+[2019.08.09-08.14.15:361][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enums/AllInfoList" FILE="../../../../CrashSite3D/Content/Blueprints/Enums/AllInfoList.uasset" SILENT=true
+[2019.08.09-08.14.15:382][778]LogSavePackage: Moving '../../../../CrashSite3D/Saved/AllInfoList572A8D454528BF6D13EFD99AD57B3272.tmp' to '../../../../CrashSite3D/Content/Blueprints/Enums/AllInfoList.uasset'
+[2019.08.09-08.14.16:732][916]LogSlate: Window 'AllInfoList' being destroyed
+[2019.08.09-08.14.20:220][310]LogAssetEditorManager: Opening Asset editor for DataTable /Game/Blueprints/DataTables/AccidentDatabase.AccidentDatabase
+[2019.08.09-08.14.20:235][310]LogBlueprintActionDatabase: Requesting refresh due to module change: DataTableEditor (loaded)
+[2019.08.09-08.14.26:789][853]LogSlate: Window 'AccidentDatabase' being destroyed
+[2019.08.09-08.14.32:367][363]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BlueprintInterfaces/BPI_ClickInteraction.BPI_ClickInteraction
+[2019.08.09-08.15.52:564][779]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Enums/BasicInfoList.BasicInfoList
+[2019.08.09-08.16.02:840][970]LogSlate: Window 'BasicInfoList' being destroyed
+[2019.08.09-08.16.04:929][191]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2019.08.09-08.16.07:703][191]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.09-08.16.08:145][191]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2019.08.09-08.16.08:170][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2019.08.09-08.16.08:192][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.08.09-08.16.10:657][191]SourceControl: Error: Updated 0 paths from the index
+[2019.08.09-08.16.11:054][191]SourceControl: rm 'Content/Blueprints/Enums/BasicInfoList.uasset'
+[2019.08.09-08.16.13:400][461]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.09-08.16.13:539][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/AccidentMap.AccidentMap:PersistentLevel' has LevelScriptBlueprint '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap' with GeneratedClass '/Game/AccidentMap.AccidentMap_C' with ClassGeneratedBy '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap'
+[2019.08.09-08.16.13:550][461]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.08.09-08.16.13:576][461]LogPlayLevel: [PlayLevel] Compiling BPI_ClickInteraction before play...
+[2019.08.09-08.16.13:752][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BlueprintInterfaces/BPI_ClickInteraction" FILE="../../../../CrashSite3D/Content/Blueprints/BlueprintInterfaces/BPI_ClickInteraction.uasset" SILENT=true
+[2019.08.09-08.16.13:801][461]LogSavePackage: Moving '../../../../CrashSite3D/Saved/BPI_ClickInteraction746C11D047BB36660E46D6B00100751A.tmp' to '../../../../CrashSite3D/Content/Blueprints/BlueprintInterfaces/BPI_ClickInteraction.uasset'
+[2019.08.09-08.16.13:847][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.08.09-08.16.13:847][461]LogPlayLevel: PlayLevel: Blueprint regeneration took 297 ms (1 blueprints)
+[2019.08.09-08.16.13:847][461]PIE: New page: PIE session: AccidentMap (10 Aug 2019 4:16:13 am)
+[2019.08.09-08.16.14:002][461]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AccidentMap
+[2019.08.09-08.16.14:052][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049763s)
+[2019.08.09-08.16.14:053][461]LogAIModule: Creating AISystem for world AccidentMap
+[2019.08.09-08.16.14:053][461]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2019.08.09-08.16.14:053][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AccidentMap.AccidentMap to /Game/UEDPIE_0_AccidentMap.AccidentMap (0.051115s)
+[2019.08.09-08.16.14:081][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.08.09-08.16.14:457][461]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.09-08.16.14:610][461]LogInit: FAudioDevice initialized.
+[2019.08.09-08.16.14:754][461]LogLoad: Game class is 'CrashGameMode_C'
+[2019.08.09-08.16.14:825][461]LogWorld: Bringing World /Game/UEDPIE_0_AccidentMap.AccidentMap up for play (max tick rate 0) at 2019.08.09-18.16.14
+[2019.08.09-08.16.14:850][461]LogWorld: Bringing up level for play took: 0.025414
+[2019.08.09-08.16.15:154][461]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.08.09-08.16.15:177][461]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.08.09-08.16.15:178][461]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.08.09-08.16.15:348][461]LogBlueprintUserMessages: [AccidentMap_C_11] Database currently contains 1 records
+[2019.08.09-08.16.15:349][461]LogBlueprintUserMessages: [AccidentMap_C_11] 0.0
+[2019.08.09-08.16.15:349][461]LogBlueprintUserMessages: [AccidentMap_C_11] 0.0
+[2019.08.09-08.16.15:349][461]LogBlueprintUserMessages: [AccidentMap_C_11] 0.0
+[2019.08.09-08.16.15:349][461]LogBlueprintUserMessages: [AccidentMap_C_11] 0.0
+[2019.08.09-08.16.15:349][461]LogBlueprintUserMessages: [AccidentMap_C_11] 0.0, 0.0
+[2019.08.09-08.16.15:381][461]PIE: Play in editor start time for /Game/UEDPIE_0_AccidentMap 2.406
+[2019.08.09-08.16.15:382][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/AccidentMap.AccidentMap:PersistentLevel' has LevelScriptBlueprint '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap' with GeneratedClass '/Game/AccidentMap.AccidentMap_C' with ClassGeneratedBy '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap'
+[2019.08.09-08.16.15:459][461]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:802][462]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:811][463]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:820][464]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:828][465]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:836][466]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:845][467]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:853][468]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:861][469]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:870][470]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:878][471]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:886][472]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:895][473]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:903][474]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:912][475]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:920][476]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:929][477]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:937][478]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:945][479]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:954][480]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:962][481]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:970][482]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:979][483]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:987][484]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.15:995][485]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:003][486]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:011][487]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:020][488]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:028][489]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:036][490]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:045][491]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:054][492]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:062][493]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:070][494]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:079][495]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:088][496]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:096][497]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:104][498]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:112][499]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:121][500]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:129][501]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:138][502]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:146][503]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:154][504]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:163][505]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:171][506]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:179][507]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:188][508]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:196][509]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:205][510]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:213][511]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:221][512]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:229][513]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:238][514]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:246][515]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:254][516]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:262][517]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:270][518]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:279][519]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:288][520]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:296][521]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:304][522]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:312][523]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:321][524]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:329][525]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:337][526]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:346][527]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:354][528]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:363][529]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:371][530]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:380][531]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:388][532]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:396][533]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:404][534]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:412][535]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:421][536]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:429][537]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:438][538]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:446][539]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:454][540]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:462][541]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:470][542]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:479][543]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:487][544]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:495][545]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:504][546]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:512][547]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:522][548]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:529][549]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:538][550]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:546][551]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:554][552]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:563][553]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:571][554]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:579][555]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:588][556]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:597][557]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:605][558]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:614][559]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:621][560]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:629][561]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:638][562]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:647][563]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:655][564]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:663][565]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:671][566]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:680][567]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:688][568]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:697][569]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:705][570]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:713][571]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:722][572]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:730][573]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:739][574]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:747][575]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:755][576]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:764][577]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:772][578]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:780][579]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:789][580]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:796][581]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:805][582]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:813][583]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:822][584]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:830][585]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:838][586]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:847][587]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:855][588]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:863][589]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:875][590]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:882][591]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:891][592]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:900][593]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:907][594]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:916][595]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:925][596]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:933][597]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:941][598]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:950][599]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:958][600]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:966][601]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:974][602]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:983][603]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:992][604]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.16:999][605]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:008][606]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:016][607]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:025][608]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:034][609]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:041][610]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:050][611]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:058][612]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:067][613]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:075][614]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:083][615]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:092][616]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:101][617]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:108][618]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:117][619]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:125][620]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:135][621]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:144][622]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:152][623]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:162][624]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:172][625]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:181][626]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:189][627]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:196][628]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:205][629]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:213][630]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:222][631]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:230][632]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:239][633]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:247][634]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:255][635]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:264][636]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:272][637]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:281][638]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:289][639]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:298][640]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:306][641]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:315][642]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:440][657]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.16.17:441][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/AccidentMap.AccidentMap:PersistentLevel' has LevelScriptBlueprint '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap' with GeneratedClass '/Game/AccidentMap.AccidentMap_C' with ClassGeneratedBy '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap'
+[2019.08.09-08.16.17:491][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.16.17:590][657]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.09-08.16.17:612][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/AccidentMap.AccidentMap:PersistentLevel' has LevelScriptBlueprint '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap' with GeneratedClass '/Game/AccidentMap.AccidentMap_C' with ClassGeneratedBy '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap'
+[2019.08.09-08.16.17:751][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.16.17:838][657]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
+[2019.08.09-08.16.17:874][658]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.08.09-08.16.19:696][868]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Enums/CameraStates.CameraStates
+[2019.08.09-08.16.37:961][  9]LogSlate: Window 'CameraStates' being destroyed
+[2019.08.09-08.16.41:571][424]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.08.09-08.16.46:191][424]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.09-08.16.46:218][424]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Libraries/CrashFunctions.CrashFunctions
+[2019.08.09-08.17.00:019][862]BlueprintLog: New page: Compile CrashFunctions
+[2019.08.09-08.17.00:861][862]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2019.08.09-08.17.02:102][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Libraries/CrashFunctions" FILE="../../../../CrashSite3D/Content/Blueprints/Libraries/CrashFunctions.uasset" SILENT=true
+[2019.08.09-08.17.03:083][862]LogSavePackage: Moving '../../../../CrashSite3D/Saved/CrashFunctions67739D1D472AB02429384E89EFA9B35B.tmp' to '../../../../CrashSite3D/Content/Blueprints/Libraries/CrashFunctions.uasset'
+[2019.08.09-08.17.04:924][ 30]LogSlate: Window 'CrashFunctions' being destroyed
+[2019.08.09-08.17.06:041][139]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.08.09-08.17.06:924][139]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.09-08.17.06:940][139]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/User/ProgramInstance.ProgramInstance
+[2019.08.09-08.17.10:802][338]BlueprintLog: New page: Compile ProgramInstance
+[2019.08.09-08.17.10:969][338]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.08.09-08.17.11:155][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/User/ProgramInstance" FILE="../../../../CrashSite3D/Content/Blueprints/User/ProgramInstance.uasset" SILENT=true
+[2019.08.09-08.17.11:282][338]LogSavePackage: Moving '../../../../CrashSite3D/Saved/ProgramInstance3DBB97A64F1F4961D2B2E0A115964CE8.tmp' to '../../../../CrashSite3D/Content/Blueprints/User/ProgramInstance.uasset'
+[2019.08.09-08.17.12:684][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.08.09-08.17.13:790][450]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.09-08.17.14:093][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.08.09-08.17.14:124][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.08.09-08.17.14:147][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2019.08.09-08.17.15:264][450]SourceControl: Error: Updated 0 paths from the index
+[2019.08.09-08.17.15:544][450]SourceControl: rm 'Content/Blueprints/Enums/HeatmapResolutions.uasset'
+[2019.08.09-08.17.17:368][637]LogSlate: Window 'ProgramInstance' being destroyed
+[2019.08.09-08.17.20:056][932]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.08.09-08.17.21:262][932]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.09-08.17.21:675][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.08.09-08.17.21:702][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.08.09-08.17.21:731][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2019.08.09-08.17.21:757][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2019.08.09-08.17.22:890][932]SourceControl: Error: Updated 0 paths from the index
+[2019.08.09-08.17.23:165][932]SourceControl: rm 'Content/Blueprints/Enums/InjuryStatisticList.uasset'
+[2019.08.09-08.17.23:165][932]SourceControl: rm 'Content/Blueprints/Enums/PeopleStatisticList.uasset'
+[2019.08.09-08.17.25:121][164]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Enums/ToolSelection.ToolSelection
+[2019.08.09-08.17.40:530][984]LogSlate: Window 'ToolSelection' being destroyed
+[2019.08.09-08.17.44:024][393]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/Blueprints/Enums/TraceTypes.TraceTypes
+[2019.08.09-08.18.02:414][568]LogSlate: Window 'TraceTypes' being destroyed
+[2019.08.09-08.18.02:467][568]LogSlate: Window 'TraceTypes' being destroyed
+[2019.08.09-08.18.04:491][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.08.09-08.18.05:348][802]LogSlate: Window 'Delete Assets' being destroyed
+[2019.08.09-08.18.05:657][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2019.08.09-08.18.05:688][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.08.09-08.18.05:715][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2019.08.09-08.18.06:858][802]SourceControl: Error: Updated 0 paths from the index
+[2019.08.09-08.18.07:164][802]SourceControl: rm 'Content/Blueprints/Enums/VehicleStatisticList.uasset'
+[2019.08.09-08.18.09:392][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enums/CameraStates" FILE="../../../../CrashSite3D/Content/Blueprints/Enums/CameraStates.uasset" SILENT=true
+[2019.08.09-08.18.09:412][ 41]LogSavePackage: Moving '../../../../CrashSite3D/Saved/CameraStates09D3CCFC42E4F7DA02E543BC12E2AAA5.tmp' to '../../../../CrashSite3D/Content/Blueprints/Enums/CameraStates.uasset'
+[2019.08.09-08.18.09:430][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enums/ToolSelection" FILE="../../../../CrashSite3D/Content/Blueprints/Enums/ToolSelection.uasset" SILENT=true
+[2019.08.09-08.18.09:490][ 41]LogSavePackage: Moving '../../../../CrashSite3D/Saved/ToolSelection79A5ADC946ED54338AB02B88AF52A877.tmp' to '../../../../CrashSite3D/Content/Blueprints/Enums/ToolSelection.uasset'
+[2019.08.09-08.18.09:506][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enums/TraceTypes" FILE="../../../../CrashSite3D/Content/Blueprints/Enums/TraceTypes.uasset" SILENT=true
+[2019.08.09-08.18.09:524][ 41]LogSavePackage: Moving '../../../../CrashSite3D/Saved/TraceTypesF6A36A484750E7059E88E7BED3851082.tmp' to '../../../../CrashSite3D/Content/Blueprints/Enums/TraceTypes.uasset'
+[2019.08.09-08.18.21:015][231]LogMetaData: Removing '/Game/Blueprints/Enums/AccidentRecordValues.AccidentRecordValues' ref from Metadata '/Game/Blueprints/Enums/AllInfoList.PackageMetaData'
+[2019.08.09-08.18.21:101][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enums/AccidentRecordValues" FILE="../../../../CrashSite3D/Content/Blueprints/Enums/AccidentRecordValues.uasset" SILENT=true
+[2019.08.09-08.18.21:111][231]LogSavePackage: Moving '../../../../CrashSite3D/Saved/AccidentRecordValues5A2EE8FC420B3946052DF8A4FBA8363D.tmp' to '../../../../CrashSite3D/Content/Blueprints/Enums/AccidentRecordValues.uasset'
+[2019.08.09-08.18.22:682][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Enums/AllInfoList" FILE="../../../../CrashSite3D/Content/Blueprints/Enums/AllInfoList.uasset" SILENT=true
+[2019.08.09-08.18.22:696][231]LogSavePackage: Moving '../../../../CrashSite3D/Saved/AllInfoList1C595CC549F561043161D6AB088CCDA5.tmp' to '../../../../CrashSite3D/Content/Blueprints/Enums/AllInfoList.uasset'
+[2019.08.09-08.18.27:496][679]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.09-08.18.27:576][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/AccidentMap.AccidentMap:PersistentLevel' has LevelScriptBlueprint '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap' with GeneratedClass '/Game/AccidentMap.AccidentMap_C' with ClassGeneratedBy '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap'
+[2019.08.09-08.18.27:577][679]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.08.09-08.18.27:596][679]LogPlayLevel: [PlayLevel] Compiling BP_AccidentMarker before play...
+[2019.08.09-08.18.27:945][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AccidentMarker" FILE="../../../../CrashSite3D/Content/Blueprints/BP_AccidentMarker.uasset" SILENT=true
+[2019.08.09-08.18.28:083][679]LogSavePackage: Moving '../../../../CrashSite3D/Saved/BP_AccidentMarker5D3765F8496F5212D99715A665B45EED.tmp' to '../../../../CrashSite3D/Content/Blueprints/BP_AccidentMarker.uasset'
+[2019.08.09-08.18.28:172][679]LogPlayLevel: [PlayLevel] Compiling CrashFunctions before play...
+[2019.08.09-08.18.28:395][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Libraries/CrashFunctions" FILE="../../../../CrashSite3D/Content/Blueprints/Libraries/CrashFunctions.uasset" SILENT=true
+[2019.08.09-08.18.28:606][679]LogSavePackage: Moving '../../../../CrashSite3D/Saved/CrashFunctions5F4352E24DBFDFDAACA134BEDA9A9CEC.tmp' to '../../../../CrashSite3D/Content/Blueprints/Libraries/CrashFunctions.uasset'
+[2019.08.09-08.18.28:618][679]LogPlayLevel: [PlayLevel] Compiling AccidentMap before play...
+[2019.08.09-08.18.28:956][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AccidentMap" FILE="../../../../CrashSite3D/Content/AccidentMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.08.09-08.18.29:003][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.08.09-08.18.29:046][679]LogPlayLevel: [PlayLevel]   Compiling AccidentMap as a dependent...
+[2019.08.09-08.18.29:361][679]LogSavePackage: Moving '../../../../CrashSite3D/Saved/AccidentMap3ED6F47C4FBBAAA6E336B1A87C173CA9.tmp' to '../../../../CrashSite3D/Content/AccidentMap.umap'
+[2019.08.09-08.18.29:483][679]LogFileHelpers: Saving map 'AccidentMap' took 0.527
+[2019.08.09-08.18.29:517][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2019.08.09-08.18.29:517][679]LogPlayLevel: PlayLevel: Blueprint regeneration took 1940 ms (4 blueprints)
+[2019.08.09-08.18.29:517][679]PIE: New page: PIE session: AccidentMap (10 Aug 2019 4:18:29 am)
+[2019.08.09-08.18.29:572][679]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_AccidentMap
+[2019.08.09-08.18.29:578][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006383s)
+[2019.08.09-08.18.29:579][679]LogAIModule: Creating AISystem for world AccidentMap
+[2019.08.09-08.18.29:579][679]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2019.08.09-08.18.29:579][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/AccidentMap.AccidentMap to /Game/UEDPIE_0_AccidentMap.AccidentMap (0.008114s)
+[2019.08.09-08.18.29:604][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2019.08.09-08.18.29:670][679]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.08.09-08.18.29:816][679]LogInit: FAudioDevice initialized.
+[2019.08.09-08.18.29:849][679]LogLoad: Game class is 'CrashGameMode_C'
+[2019.08.09-08.18.29:850][679]LogWorld: Bringing World /Game/UEDPIE_0_AccidentMap.AccidentMap up for play (max tick rate 0) at 2019.08.09-18.18.29
+[2019.08.09-08.18.29:850][679]LogWorld: Bringing up level for play took: 0.001156
+[2019.08.09-08.18.29:864][679]LogBlueprintUserMessages: [AccidentMap_C_1] Database currently contains 1 records
+[2019.08.09-08.18.29:865][679]LogBlueprintUserMessages: [AccidentMap_C_1] 0.0
+[2019.08.09-08.18.29:865][679]LogBlueprintUserMessages: [AccidentMap_C_1] 0.0
+[2019.08.09-08.18.29:865][679]LogBlueprintUserMessages: [AccidentMap_C_1] 0.0
+[2019.08.09-08.18.29:865][679]LogBlueprintUserMessages: [AccidentMap_C_1] 0.0
+[2019.08.09-08.18.29:865][679]LogBlueprintUserMessages: [AccidentMap_C_1] 0.0, 0.0
+[2019.08.09-08.18.29:873][679]PIE: Play in editor start time for /Game/UEDPIE_0_AccidentMap 2.897
+[2019.08.09-08.18.29:874][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/AccidentMap.AccidentMap:PersistentLevel' has LevelScriptBlueprint '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap' with GeneratedClass '/Game/AccidentMap.AccidentMap_C' with ClassGeneratedBy '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap'
+[2019.08.09-08.18.29:874][679]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.29:935][680]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.29:950][681]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.29:960][682]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.29:968][683]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.29:977][684]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.29:986][685]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.29:995][686]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:002][687]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:011][688]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:020][689]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:029][690]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:037][691]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:047][692]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:056][693]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:064][694]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:072][695]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:081][696]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:089][697]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:098][698]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:106][699]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:114][700]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:123][701]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:131][702]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:139][703]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:147][704]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:156][705]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:164][706]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:172][707]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:182][708]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:189][709]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:197][710]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:206][711]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:214][712]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:223][713]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:231][714]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:239][715]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:247][716]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:256][717]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:265][718]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:273][719]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:281][720]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:289][721]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:298][722]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:306][723]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:314][724]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:323][725]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:331][726]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:339][727]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:348][728]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:356][729]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:364][730]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:373][731]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:381][732]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:390][733]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:398][734]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:406][735]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:414][736]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:423][737]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:431][738]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:440][739]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:448][740]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:456][741]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:465][742]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:473][743]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:481][744]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:489][745]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:497][746]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:506][747]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:514][748]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:522][749]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:531][750]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:539][751]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:547][752]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:556][753]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:564][754]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:572][755]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:581][756]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:589][757]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:597][758]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:606][759]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:614][760]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:622][761]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:631][762]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:639][763]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:648][764]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:656][765]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:664][766]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:673][767]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:682][768]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:689][769]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:698][770]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:707][771]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:715][772]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:722][773]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:731][774]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:739][775]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:747][776]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:756][777]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:765][778]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:776][779]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:783][780]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:791][781]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:800][782]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:808][783]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:817][784]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:825][785]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:833][786]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:841][787]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:850][788]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:858][789]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:866][790]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:875][791]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:883][792]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:891][793]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:900][794]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:908][795]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:917][796]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:926][797]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:934][798]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:942][799]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:950][800]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:961][801]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:969][802]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:977][803]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:986][804]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.30:994][805]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:003][806]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:012][807]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:020][808]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:028][809]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:036][810]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:045][811]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:054][812]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:061][813]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:069][814]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:081][815]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:088][816]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:096][817]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:105][818]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:115][819]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:122][820]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:130][821]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:139][822]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:152][823]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:158][824]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:167][825]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:175][826]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:183][827]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:192][828]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:200][829]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:211][830]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:219][831]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:228][832]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:239][833]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:248][834]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:257][835]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:266][836]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:274][837]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:282][838]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:290][839]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:298][840]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:307][841]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:314][842]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:324][843]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:332][844]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:340][845]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:348][846]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:357][847]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:365][848]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:373][849]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:382][850]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:390][851]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:398][852]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:409][853]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:500][864]LogBlueprintUserMessages: [BP_AccidentManager] Cached Results: 0, Rendered Results: 0
+[2019.08.09-08.18.31:501][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/AccidentMap.AccidentMap:PersistentLevel' has LevelScriptBlueprint '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap' with GeneratedClass '/Game/AccidentMap.AccidentMap_C' with ClassGeneratedBy '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap'
+[2019.08.09-08.18.31:503][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.18.31:531][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.09-08.18.31:532][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/AccidentMap.AccidentMap:PersistentLevel' has LevelScriptBlueprint '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap' with GeneratedClass '/Game/AccidentMap.AccidentMap_C' with ClassGeneratedBy '/Game/AccidentMap.AccidentMap:PersistentLevel.AccidentMap'
+[2019.08.09-08.18.31:568][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.09-08.18.31:572][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.08.09-08.18.31:606][867]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.08.09-08.21.38:842][540]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.08.09-08.21.39:179][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Libraries/CrashComponentMacros" FILE="../../../../CrashSite3D/Content/Blueprints/Libraries/CrashComponentMacros.uasset" SILENT=true
+[2019.08.09-08.21.39:236][540]LogSavePackage: Moving '../../../../CrashSite3D/Saved/CrashComponentMacros55F3E9E24B3FC1D19A2501AD9E845A46.tmp' to '../../../../CrashSite3D/Content/Blueprints/Libraries/CrashComponentMacros.uasset'
+[2019.08.09-08.22.56:672][177]LogSlate: Took 0.023367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.08.09-08.23.26:627][662]LogEditorTransaction: Undo Create Pin Link
+[2019.08.09-08.24.54:307][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2019.08.09-08.24.54:618][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Libraries/CrashComponentMacros" FILE="../../../../CrashSite3D/Content/Blueprints/Libraries/CrashComponentMacros.uasset" SILENT=true
+[2019.08.09-08.24.54:640][459]LogSavePackage: Moving '../../../../CrashSite3D/Saved/CrashComponentMacros6B5882344C82761F562ECCA902E51026.tmp' to '../../../../CrashSite3D/Content/Blueprints/Libraries/CrashComponentMacros.uasset'
+[2019.08.09-08.24.54:652][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AccidentMarker" FILE="../../../../CrashSite3D/Content/Blueprints/BP_AccidentMarker.uasset" SILENT=true
+[2019.08.09-08.24.54:783][459]LogSavePackage: Moving '../../../../CrashSite3D/Saved/BP_AccidentMarkerE79607C14481CF7900189FBCFB258011.tmp' to '../../../../CrashSite3D/Content/Blueprints/BP_AccidentMarker.uasset'
+[2019.08.09-08.24.54:793][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Libraries/CrashMacros" FILE="../../../../CrashSite3D/Content/Blueprints/Libraries/CrashMacros.uasset" SILENT=true
+[2019.08.09-08.24.54:826][459]LogSavePackage: Moving '../../../../CrashSite3D/Saved/CrashMacros983ED03C4F9B89BAF13FE09B3C4DDCDD.tmp' to '../../../../CrashSite3D/Content/Blueprints/Libraries/CrashMacros.uasset'
+[2019.08.09-08.26.49:556][910]LogEditorTransaction: Undo Delete current selection
+[2019.08.09-08.26.49:918][936]LogEditorTransaction: Undo Delete current selection
+[2019.08.09-08.26.50:966][ 48]LogEditorTransaction: Redo Delete current selection
+[2019.08.09-08.26.51:429][ 93]LogEditorTransaction: Redo Delete current selection
+[2019.08.09-08.27.36:136][203]BlueprintLog: New page: Compile CrashFunctions
+[2019.08.09-08.27.36:321][203]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.08.09-08.27.36:500][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Libraries/CrashFunctions" FILE="../../../../CrashSite3D/Content/Blueprints/Libraries/CrashFunctions.uasset" SILENT=true
+[2019.08.09-08.27.36:747][203]LogSavePackage: Moving '../../../../CrashSite3D/Saved/CrashFunctionsB75E37C0489C0421DF5446BECD0DF7BA.tmp' to '../../../../CrashSite3D/Content/Blueprints/Libraries/CrashFunctions.uasset'
+[2019.08.09-08.32.36:396][889]LogHttp: Warning: 000001DA8BA9A5C0: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.08.09-08.32.36:397][889]LogHttp: Warning: 000001DA8BA9A5C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1da113a3f70 [can pipeline])
+[2019.08.09-08.32.36:397][889]LogHttp: Warning: 000001DA8BA9A5C0: libcurl info message cache 1 (Re-using existing connection! (#11) with host datarouter.ol.epicgames.com)
+[2019.08.09-08.32.36:397][889]LogHttp: Warning: 000001DA8BA9A5C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.171.83) port 443 (#11))
+[2019.08.09-08.32.36:397][889]LogHttp: Warning: 000001DA8BA9A5C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.08.09-08.32.36:397][889]LogHttp: Warning: 000001DA8BA9A5C0: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.08.09-08.32.36:397][889]LogHttp: Warning: 000001DA8BA9A5C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.08.09-08.32.36:397][889]LogHttp: Warning: 000001DA8BA9A5C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.08.09-08.32.36:398][889]LogHttp: Warning: 000001DA8BA9A5C0: libcurl info message cache 7 (Closing connection 11)
+[2019.08.09-08.32.36:406][890]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD67C669A-4B76-8A90-3964-139D70904670%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.22.3-0%2B%2B%2BUE4%2BRelease-4.22&UserID=ebee79f5498ce73f8b9614a24de3d062%7Ca9972fe662ee4ff291fbcecb76b8f8ca%7C470785f5-427c-46c2-bd11-b1743e663c94&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2019.08.09-08.33.47:780][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.08.09-08.33.47:780][ 67]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/AccidentMap' took 0.035
+[2019.08.09-08.33.47:803][ 67]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Libraries/CrashFunctions] ([1] browsable assets)...
+[2019.08.09-08.33.47:803][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Libraries/CrashFunctions]
+[2019.08.09-08.33.47:803][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Libraries/CrashFunctions" FILE="../../../../CrashSite3D/Saved/Autosaves/Game/Blueprints/Libraries/CrashFunctions_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.08.09-08.33.48:032][ 67]LogSavePackage: Moving '../../../../CrashSite3D/Saved/CrashFunctions_Auto11BFD83784ED7125AB5CF6D99B1B91454.tmp' to '../../../../CrashSite3D/Saved/Autosaves/Game/Blueprints/Libraries/CrashFunctions_Auto1.uasset'
+[2019.08.09-08.33.48:077][ 67]LogFileHelpers: Auto-saving content packages took 0.296
+[2019.08.09-08.35.59:839][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Libraries/CrashFunctions" FILE="../../../../CrashSite3D/Content/Blueprints/Libraries/CrashFunctions.uasset" SILENT=true
+[2019.08.09-08.36.00:063][483]LogSavePackage: Moving '../../../../CrashSite3D/Saved/CrashFunctions8AD8529F4DB4E72B4F3420A31D48DF3B.tmp' to '../../../../CrashSite3D/Content/Blueprints/Libraries/CrashFunctions.uasset'
+[2019.08.09-08.36.01:031][587]BlueprintLog: New page: Compile CrashFunctions
+[2019.08.09-08.36.01:301][587]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.08.09-08.36.16:010][553]LogPackageName: Error: Illegal call to DoesPackageExist: '../../../../CrashSite3D/CrashSite3D.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2019.08.09-08.36.16:037][553]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.08.09-08.37.56:859][553]LogStats: FPlatformStackWalk::StackWalkAndDump - 100.823 s
+[2019.08.09-08.37.56:859][553]LogOutputDevice: Error: === Handled ensure: ===
+[2019.08.09-08.37.56:859][553]LogOutputDevice: Error: 
+[2019.08.09-08.37.56:859][553]LogOutputDevice: Error: Ensure condition failed: false [File:F:\Epic Games\UnrealEngine\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 849]
+[2019.08.09-08.37.56:860][553]LogOutputDevice: Error: Illegal call to DoesPackageExist: '../../../../CrashSite3D/CrashSite3D.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2019.08.09-08.37.56:860][553]LogOutputDevice: Error: Stack: 
+[2019.08.09-08.37.56:860][553]LogOutputDevice: Error: [Callstack] 0x00007ff936fa1097 UE4Editor-CoreUObject.dll!DispatchCheckVerify<bool,<lambda_0dd4de3f239479bd2a5804b7f3d29284> >() [f:\epic games\unrealengine\engine\source\runtime\core\public\misc\assertionmacros.h:161]
+[2019.08.09-08.37.56:860][553]LogOutputDevice: Error: [Callstack] 0x00007ff936c5ea0a UE4Editor-CoreUObject.dll!FPackageName::DoesPackageExist() [f:\epic games\unrealengine\engine\source\runtime\coreuobject\private\misc\packagename.cpp:849]
+[2019.08.09-08.37.56:860][553]LogOutputDevice: Error: [Callstack] 0x00007ff9557d5615 UE4Editor-SourceControl.dll!PackageFilename_Internal() [f:\epic games\unrealengine\engine\source\developer\sourcecontrol\private\sourcecontrolhelpers.cpp:882]
+[2019.08.09-08.37.56:861][553]LogOutputDevice: Error: [Callstack] 0x00007ff9557d576b UE4Editor-SourceControl.dll!USourceControlHelpers::PackageFilenames() [f:\epic games\unrealengine\engine\source\developer\sourcecontrol\private\sourcecontrolhelpers.cpp:937]
+[2019.08.09-08.37.56:861][553]LogOutputDevice: Error: [Callstack] 0x00007ff932808dfc UE4Editor-SourceControlWindows.dll!FSourceControlWindows::PromptForCheckin() [f:\epic games\unrealengine\engine\source\editor\sourcecontrolwindows\private\sourcecontrolwindows.cpp:125]
+[2019.08.09-08.37.56:861][553]LogOutputDevice: Error: [Callstack] 0x00007ff9327c59e3 UE4Editor-SourceControlWindows.dll!FSourceControlWindows::ChoosePackagesToCheckInCompleted() [f:\epic games\unrealengine\engine\source\editor\sourcecontrolwindows\private\sourcecontrolwindows.cpp:377]
+[2019.08.09-08.37.56:861][553]LogOutputDevice: Error: [Callstack] 0x00007ff9327c522a UE4Editor-SourceControlWindows.dll!FSourceControlWindows::ChoosePackagesToCheckInCallback() [f:\epic games\unrealengine\engine\source\editor\sourcecontrolwindows\private\sourcecontrolwindows.cpp:455]
+[2019.08.09-08.37.56:862][553]LogOutputDevice: Error: [Callstack] 0x00007ff9327dc451 UE4Editor-SourceControlWindows.dll!TBaseStaticDelegateInstance<void __cdecl(TSharedRef<ISourceControlOperation,1> const &,enum ECommandResult::Type),TBaseDelegate<void,FCheckinResultInfo const &> >::ExecuteIfSafe() [f:\epic games\unrealengine\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:813]
+[2019.08.09-08.37.56:862][553]LogOutputDevice: Error: [Callstack] 0x00007ff8fcb0b133 UE4Editor-GitSourceControl.dll!FGitSourceControlCommand::ReturnResults() [f:\epic games\unrealengine\engine\plugins\developer\gitsourcecontrol\source\gitsourcecontrol\private\gitsourcecontrolcommand.cpp:58]
+[2019.08.09-08.37.56:862][553]LogOutputDevice: Error: [Callstack] 0x00007ff8fcb0fbb1 UE4Editor-GitSourceControl.dll!FGitSourceControlProvider::Tick() [f:\epic games\unrealengine\engine\plugins\developer\gitsourcecontrol\source\gitsourcecontrol\private\gitsourcecontrolprovider.cpp:316]
+[2019.08.09-08.37.56:862][553]LogOutputDevice: Error: [Callstack] 0x00007ff9557da3b7 UE4Editor-SourceControl.dll!FSourceControlModule::Tick() [f:\epic games\unrealengine\engine\source\developer\sourcecontrol\private\sourcecontrolmodule.cpp:244]
+[2019.08.09-08.37.56:863][553]LogOutputDevice: Error: [Callstack] 0x00007ff9293d09b5 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [f:\epic games\unrealengine\engine\source\editor\unrealed\private\editorengine.cpp:1793]
+[2019.08.09-08.37.56:863][553]LogOutputDevice: Error: [Callstack] 0x00007ff929bed396 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [f:\epic games\unrealengine\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2019.08.09-08.37.56:863][553]LogOutputDevice: Error: [Callstack] 0x00007ff771486bb1 UE4Editor.exe!FEngineLoop::Tick() [f:\epic games\unrealengine\engine\source\runtime\launch\private\launchengineloop.cpp:3967]
+[2019.08.09-08.37.56:863][553]LogOutputDevice: Error: [Callstack] 0x00007ff77149554c UE4Editor.exe!GuardedMain() [f:\epic games\unrealengine\engine\source\runtime\launch\private\launch.cpp:168]
+[2019.08.09-08.37.56:863][553]LogOutputDevice: Error: [Callstack] 0x00007ff7714955ca UE4Editor.exe!GuardedMainWrapper() [f:\epic games\unrealengine\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2019.08.09-08.37.56:863][553]LogOutputDevice: Error: [Callstack] 0x00007ff7714a316c UE4Editor.exe!WinMain() [f:\epic games\unrealengine\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+[2019.08.09-08.37.56:863][553]LogOutputDevice: Error: [Callstack] 0x00007ff7714a5b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2019.08.09-08.37.56:864][553]LogOutputDevice: Error: [Callstack] 0x00007ff993377bd4 KERNEL32.DLL!UnknownFunction []
+[2019.08.09-08.37.56:864][553]LogOutputDevice: Error: [Callstack] 0x00007ff99396ce71 ntdll.dll!UnknownFunction []
+[2019.08.09-08.37.56:864][553]LogOutputDevice: Error: 
+[2019.08.09-08.37.56:876][553]LogStats:                SubmitErrorReport -  0.000 s
