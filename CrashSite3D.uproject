@@ -1,17 +1,12 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{8CE720E4-4F16-4FAE-A75B-5396021FF70B}",
+	"EngineAssociation": "{FAEB7ADF-48DA-AB06-006A-22B3876C2912}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
 		{
 			"Name": "SunPosition",
 			"Enabled": true
-		},
-		{
-			"Name": "AutoSizeComments",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ae89a2c4ab384de0a3f213b23de324f3"
 		}
 	],
 	"TargetPlatforms": [
