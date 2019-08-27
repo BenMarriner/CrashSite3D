@@ -1,0 +1,519 @@
+﻿Log file open, 08/27/19 17:07:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: CrashSite3D
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.515847
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin SunPosition
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AutoSizeComments
+LogInit: Warning: Incompatible or missing module: AutoSizeComments
+Running F:/Epic Games/UnrealEngine-release/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="F:/Epic Games/CrashSite3D/CrashSite3D.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (F:\Epic Games\CrashSite3D).
+Creating makefile for UE4Editor (.uproject file is newer)
+@progress push 5%
+Creating makefile for UnrealHeaderTool (ini files are newer than makefile)
+@progress push 5%
+@progress pop
+Parsing headers for UE4Editor
+  Running UnrealHeaderTool "F:\Epic Games\CrashSite3D\CrashSite3D.uproject" "F:\Epic Games\CrashSite3D\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+Reflection code generated for UE4Editor in 76.0588051 seconds
+@progress pop
+Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 142 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 1%
+  [1/142] UE4Editor-Engine.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Engine.dll'
+  [2/142] UE4Editor-DetailCustomizations.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-DetailCustomizations.dll'
+  @progress 'Compiling C++ source code...' 2%
+  [3/142] UE4Editor-UnrealEd.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll'
+  @progress 'Compiling C++ source code...' 3%
+  [4/142] UE4Editor-MovieSceneTools.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MovieSceneTools.dll'
+  @progress 'Compiling C++ source code...' 4%
+  [5/142] UE4Editor-Kismet.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Kismet.dll'
+  [6/142] UE4Editor-LevelEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll'
+  @progress 'Compiling C++ source code...' 5%
+  [7/142] UE4Editor-Sequencer.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Sequencer.dll'
+  @progress 'Compiling C++ source code...' 6%
+  [8/142] UE4Editor.exe
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor.exe'
+  [9/142] UE4Editor-UMGEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-UMGEditor.dll'
+  @progress 'Compiling C++ source code...' 7%
+  [10/142] UE4Editor-GameProjectGeneration.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-GameProjectGeneration.dll'
+  @progress 'Compiling C++ source code...' 8%
+  [11/142] UE4Editor-Landscape.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Landscape.dll'
+  [12/142] UE4Editor-ClothingSystemEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ClothingSystemEditor.dll'
+  @progress 'Compiling C++ source code...' 9%
+  [13/142] UE4Editor-Renderer.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Renderer.dll'
+  @progress 'Compiling C++ source code...' 10%
+  [14/142] UE4Editor-AIModule.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AIModule.dll'
+  @progress 'Compiling C++ source code...' 11%
+  [15/142] UE4Editor-UMG.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-UMG.dll'
+  [16/142] UE4Editor-MovieSceneCapture.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MovieSceneCapture.dll'
+  @progress 'Compiling C++ source code...' 12%
+  [17/142] UE4Editor-BlueprintGraph.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-BlueprintGraph.dll'
+  @progress 'Compiling C++ source code...' 13%
+  [18/142] UE4Editor-AudioEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AudioEditor.dll'
+  [19/142] UE4Editor-Core.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Core.dll'
+  @progress 'Compiling C++ source code...' 14%
+  [20/142] UE4Editor-BlueprintNativeCodeGen.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-BlueprintNativeCodeGen.dll'
+  @progress 'Compiling C++ source code...' 15%
+  [21/142] UE4Editor-GraphEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-GraphEditor.dll'
+  [22/142] UE4Editor-VREditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-VREditor.dll'
+  @progress 'Compiling C++ source code...' 16%
+  [23/142] UE4Editor-PropertyEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-PropertyEditor.dll'
+  @progress 'Compiling C++ source code...' 17%
+  [24/142] UE4Editor-ClothingSystemRuntime.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ClothingSystemRuntime.dll'
+  @progress 'Compiling C++ source code...' 18%
+  [25/142] UE4Editor-NavigationSystem.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-NavigationSystem.dll'
+  [26/142] UE4Editor-MaterialEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MaterialEditor.dll'
+  @progress 'Compiling C++ source code...' 19%
+  [27/142] UE4Editor-AnimGraphRuntime.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AnimGraphRuntime.dll'
+  @progress 'Compiling C++ source code...' 20%
+  [28/142] UE4Editor-AnimationModifiers.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AnimationModifiers.dll'
+  [29/142] UE4Editor-D3D11RHI.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-D3D11RHI.dll'
+  @progress 'Compiling C++ source code...' 21%
+  [30/142] UE4Editor-AddContentDialog.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AddContentDialog.dll'
+  @progress 'Compiling C++ source code...' 22%
+  [31/142] UE4Editor-MaterialBaking.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MaterialBaking.dll'
+  @progress 'Compiling C++ source code...' 23%
+  [32/142] UE4Editor-CommonMenuExtensions.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-CommonMenuExtensions.dll'
+  [33/142] UE4Editor-SlateCore.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SlateCore.dll'
+  @progress 'Compiling C++ source code...' 24%
+  [34/142] UE4Editor-HeadMountedDisplay.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-HeadMountedDisplay.dll'
+  @progress 'Compiling C++ source code...' 25%
+  [35/142] UE4Editor-PIEPreviewDeviceProfileSelector.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-PIEPreviewDeviceProfileSelector.dll'
+  [36/142] UE4Editor-AudioMixer.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AudioMixer.dll'
+  @progress 'Compiling C++ source code...' 26%
+  [37/142] UE4Editor-AnimGraph.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AnimGraph.dll'
+  @progress 'Compiling C++ source code...' 27%
+  [38/142] UE4Editor-ComponentVisualizers.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ComponentVisualizers.dll'
+  [39/142] UE4Editor-Slate.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Slate.dll'
+  @progress 'Compiling C++ source code...' 28%
+  [40/142] UE4Editor-MaterialUtilities.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MaterialUtilities.dll'
+  @progress 'Compiling C++ source code...' 29%
+  [41/142] UE4Editor-GameplayDebugger.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-GameplayDebugger.dll'
+  @progress 'Compiling C++ source code...' 30%
+  [42/142] UE4Editor-StatsViewer.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-StatsViewer.dll'
+  [43/142] UE4Editor-MovieSceneTracks.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MovieSceneTracks.dll'
+  @progress 'Compiling C++ source code...' 31%
+  [44/142] UE4Editor-InternationalizationSettings.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-InternationalizationSettings.dll'
+  @progress 'Compiling C++ source code...' 32%
+  [45/142] UE4Editor-MoviePlayer.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MoviePlayer.dll'
+  [46/142] UE4Editor-ConfigEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ConfigEditor.dll'
+  @progress 'Compiling C++ source code...' 33%
+  [47/142] UE4Editor-OpenGLDrv.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-OpenGLDrv.dll'
+  @progress 'Compiling C++ source code...' 34%
+  [48/142] UE4Editor-ClassViewer.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ClassViewer.dll'
+  @progress 'Compiling C++ source code...' 35%
+  [49/142] UE4Editor-PreLoadScreen.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-PreLoadScreen.dll'
+  [50/142] UE4Editor-SharedSettingsWidgets.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SharedSettingsWidgets.dll'
+  @progress 'Compiling C++ source code...' 36%
+  [51/142] UE4Editor-KismetCompiler.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll'
+  @progress 'Compiling C++ source code...' 37%
+  [52/142] UE4Editor-Localization.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Localization.dll'
+  [53/142] UE4Editor-HardwareTargeting.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-HardwareTargeting.dll'
+  @progress 'Compiling C++ source code...' 38%
+  [54/142] UE4Editor-SourceControlWindows.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SourceControlWindows.dll'
+  @progress 'Compiling C++ source code...' 39%
+  [55/142] UE4Editor-LevelSequence.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-LevelSequence.dll'
+  [56/142] UE4Editor-CurveEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-CurveEditor.dll'
+  @progress 'Compiling C++ source code...' 40%
+  [57/142] UE4Editor-SourceControl.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SourceControl.dll'
+  @progress 'Compiling C++ source code...' 41%
+  [58/142] UE4Editor-SlateRHIRenderer.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SlateRHIRenderer.dll'
+  @progress 'Compiling C++ source code...' 42%
+  [59/142] UE4Editor-DataTableEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-DataTableEditor.dll'
+  [60/142] UE4Editor-MaterialShaderQualitySettings.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MaterialShaderQualitySettings.dll'
+  @progress 'Compiling C++ source code...' 43%
+  [61/142] UE4Editor-ViewportInteraction.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ViewportInteraction.dll'
+  @progress 'Compiling C++ source code...' 44%
+  [62/142] UE4Editor-MeshDescriptionOperations.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MeshDescriptionOperations.dll'
+  [63/142] UE4Editor-EngineSettings.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-EngineSettings.dll'
+  @progress 'Compiling C++ source code...' 45%
+  [64/142] UE4Editor-KismetWidgets.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-KismetWidgets.dll'
+  @progress 'Compiling C++ source code...' 46%
+  [65/142] UE4Editor-BlueprintCompilerCppBackend.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-BlueprintCompilerCppBackend.dll'
+  [66/142] UE4Editor-BuildPatchServices.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-BuildPatchServices.dll'
+  @progress 'Compiling C++ source code...' 47%
+  [67/142] UE4Editor-AdvancedPreviewScene.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AdvancedPreviewScene.dll'
+  @progress 'Compiling C++ source code...' 48%
+  [68/142] UE4Editor-CoreUObject.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll'
+  @progress 'Compiling C++ source code...' 49%
+  [69/142] UE4Editor-ActorPickerMode.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ActorPickerMode.dll'
+  [70/142] UE4Editor-AudioSettingsEditor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AudioSettingsEditor.dll'
+  @progress 'Compiling C++ source code...' 50%
+  [71/142] UE4Editor-EditorWidgets.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-EditorWidgets.dll'
+  @progress 'Compiling C++ source code...' 51%
+  [72/142] UE4Editor-ImageWriteQueue.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ImageWriteQueue.dll'
+  [73/142] UE4Editor-TargetPlatform.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-TargetPlatform.dll'
+  @progress 'Compiling C++ source code...' 52%
+  [74/142] UE4Editor-WidgetCarousel.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-WidgetCarousel.dll'
+  @progress 'Compiling C++ source code...' 53%
+  [75/142] UE4Editor-SceneDepthPickerMode.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SceneDepthPickerMode.dll'
+  @progress 'Compiling C++ source code...' 54%
+  [76/142] UE4Editor-MovieScene.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MovieScene.dll'
+  [77/142] UE4Editor-AugmentedReality.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AugmentedReality.dll'
+  @progress 'Compiling C++ source code...' 55%
+  [78/142] UE4Editor-EditorStyle.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-EditorStyle.dll'
+  @progress 'Compiling C++ source code...' 56%
+  [79/142] UE4Editor-Foliage.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Foliage.dll'
+  [80/142] UE4Editor-GameplayTags.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-GameplayTags.dll'
+  @progress 'Compiling C++ source code...' 57%
+  [81/142] UE4Editor-MediaUtils.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MediaUtils.dll'
+  @progress 'Compiling C++ source code...' 58%
+  [82/142] UE4Editor-SSL.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SSL.dll'
+  [83/142] UE4Editor-AppFramework.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AppFramework.dll'
+  @progress 'Compiling C++ source code...' 59%
+  [84/142] UE4Editor-TimeManagement.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-TimeManagement.dll'
+  @progress 'Compiling C++ source code...' 60%
+  [85/142] UE4Editor-TextureCompressor.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-TextureCompressor.dll'
+  @progress 'Compiling C++ source code...' 61%
+  [86/142] UE4Editor-AssetRegistry.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AssetRegistry.dll'
+  [87/142] UE4Editor-RSA.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-RSA.dll'
+  @progress 'Compiling C++ source code...' 62%
+  [88/142] UE4Editor-GameplayTasks.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-GameplayTasks.dll'
+  @progress 'Compiling C++ source code...' 63%
+  [89/142] UE4Editor-HierarchicalLODUtilities.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-HierarchicalLODUtilities.dll'
+  [90/142] UE4Editor-PerfCounters.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-PerfCounters.dll'
+  @progress 'Compiling C++ source code...' 64%
+  [91/142] UE4Editor-PIEPreviewDeviceSpecification.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-PIEPreviewDeviceSpecification.dll'
+  @progress 'Compiling C++ source code...' 65%
+  [92/142] UE4Editor-AnalyticsET.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AnalyticsET.dll'
+  [93/142] UE4Editor-PacketHandler.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-PacketHandler.dll'
+  @progress 'Compiling C++ source code...' 66%
+  [94/142] UE4Editor-RenderCore.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-RenderCore.dll'
+  @progress 'Compiling C++ source code...' 67%
+  [95/142] UE4Editor-DesktopWidgets.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-DesktopWidgets.dll'
+  @progress 'Compiling C++ source code...' 68%
+  [96/142] UE4Editor-UnrealEdMessages.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-UnrealEdMessages.dll'
+  [97/142] UE4Editor-PakFileUtilities.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-PakFileUtilities.dll'
+  @progress 'Compiling C++ source code...' 69%
+  [98/142] UE4Editor-CinematicCamera.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-CinematicCamera.dll'
+  @progress 'Compiling C++ source code...' 70%
+  [99/142] UE4Editor-EditorSubsystem.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-EditorSubsystem.dll'
+  [100/142] UE4Editor-JsonUtilities.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-JsonUtilities.dll'
+  @progress 'Compiling C++ source code...' 71%
+  [101/142] UE4Editor-AnimationCore.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AnimationCore.dll'
+  @progress 'Compiling C++ source code...' 72%
+  [102/142] UE4Editor-AudioPlatformConfiguration.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AudioPlatformConfiguration.dll'
+  @progress 'Compiling C++ source code...' 73%
+  [103/142] UE4Editor-EngineMessages.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-EngineMessages.dll'
+  [104/142] UE4Editor-ClothingSystemRuntimeInterface.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ClothingSystemRuntimeInterface.dll'
+  @progress 'Compiling C++ source code...' 74%
+  [105/142] UE4Editor-ClothingSystemEditorInterface.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ClothingSystemEditorInterface.dll'
+  @progress 'Compiling C++ source code...' 75%
+  [106/142] UE4Editor-SerializedRecorderInterface.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SerializedRecorderInterface.dll'
+  [107/142] UE4Editor-UtilityShaders.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-UtilityShaders.dll'
+  @progress 'Compiling C++ source code...' 76%
+  [108/142] UE4Editor-CookedIterativeFile.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-CookedIterativeFile.dll'
+  @progress 'Compiling C++ source code...' 77%
+  [109/142] UE4Editor-SwarmInterface.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SwarmInterface.dll'
+  [110/142] UE4Editor-InputCore.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-InputCore.dll'
+  @progress 'Compiling C++ source code...' 78%
+  [111/142] UE4Editor-PropertyPath.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-PropertyPath.dll'
+  @progress 'Compiling C++ source code...' 79%
+  [112/142] UE4Editor-UnrealAudio.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-UnrealAudio.dll'
+  @progress 'Compiling C++ source code...' 80%
+  [113/142] UE4Editor-StreamingFile.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-StreamingFile.dll'
+  [114/142] UE4Editor-NetworkFile.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-NetworkFile.dll'
+  @progress 'Compiling C++ source code...' 81%
+  [115/142] UE4Editor-Navmesh.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Navmesh.dll'
+  @progress 'Compiling C++ source code...' 82%
+  [116/142] UE4Editor-MeshDescription.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MeshDescription.dll'
+  [117/142] UE4Editor-DesktopPlatform.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-DesktopPlatform.dll'
+  @progress 'Compiling C++ source code...' 83%
+  [118/142] UE4Editor-AVIWriter.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-AVIWriter.dll'
+  @progress 'Compiling C++ source code...' 84%
+  [119/142] UE4Editor-RHI.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-RHI.dll'
+  @progress 'Compiling C++ source code...' 85%
+  [120/142] UE4Editor-Sockets.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Sockets.dll'
+  [121/142] UE4Editor-ApplicationCore.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ApplicationCore.dll'
+  @progress 'Compiling C++ source code...' 86%
+  [122/142] UE4Editor-Projects.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Projects.dll'
+  @progress 'Compiling C++ source code...' 87%
+  [123/142] UE4Editor-ReliabilityHandlerComponent.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ReliabilityHandlerComponent.dll'
+  [124/142] UE4Editor-XmlParser.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-XmlParser.dll'
+  @progress 'Compiling C++ source code...' 88%
+  [125/142] UE4Editor-PakFile.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-PakFile.dll'
+  @progress 'Compiling C++ source code...' 89%
+  [126/142] UE4Editor-RawMesh.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-RawMesh.dll'
+  [127/142] UE4Editor-Media.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Media.dll'
+  @progress 'Compiling C++ source code...' 90%
+  [128/142] UE4Editor-SandboxFile.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-SandboxFile.dll'
+  @progress 'Compiling C++ source code...' 91%
+  [129/142] UE4Editor-ImageCore.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-ImageCore.dll'
+  @progress 'Compiling C++ source code...' 92%
+  [130/142] UE4Editor-Json.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Json.dll'
+  [131/142] UE4Editor-UELibSampleRate.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-UELibSampleRate.dll'
+  @progress 'Compiling C++ source code...' 93%
+  [132/142] UE4Editor-HTTP.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-HTTP.dll'
+  @progress 'Compiling C++ source code...' 94%
+  [133/142] UE4Editor-Analytics.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-Analytics.dll'
+  [134/142] UE4Editor-XGEController.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-XGEController.dll'
+  @progress 'Compiling C++ source code...' 95%
+  [135/142] UE4Editor-DirectoryWatcher.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-DirectoryWatcher.dll'
+  @progress 'Compiling C++ source code...' 96%
+  [136/142] UE4Editor-MeshUtilitiesCommon.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-MeshUtilitiesCommon.dll'
+  [137/142] UE4Editor-BuildSettings.dll
+  LINK : fatal error LNK1104: cannot open file 'F:\Epic Games\UnrealEngine-release\Engine\Binaries\Win64\UE4Editor-BuildSettings.dll'
+  @progress 'Compiling C++ source code...' 97%
+  [138/142] Module.AutoSizeComments.gen.cpp
+  @progress 'Compiling C++ source code...' 98%
+  [139/142] Module.AutoSizeComments.cpp
+  @progress 'Compiling C++ source code...' 99%
+  [140/142] UE4Editor-AutoSizeComments.lib
+     Creating library F:\Epic Games\CrashSite3D\Plugins\AutoSizeComments\Intermediate\Build\Win64\UE4Editor\Development\AutoSizeComments\UE4Editor-AutoSizeComments.lib and object F:\Epic Games\CrashSite3D\Plugins\AutoSizeComments\Intermediate\Build\Win64\UE4Editor\Development\AutoSizeComments\UE4Editor-AutoSizeComments.exp
+  [141/142] UE4Editor-AutoSizeComments.dll
+     Creating library F:\Epic Games\CrashSite3D\Plugins\AutoSizeComments\Intermediate\Build\Win64\UE4Editor\Development\AutoSizeComments\UE4Editor-AutoSizeComments.suppressed.lib and object F:\Epic Games\CrashSite3D\Plugins\AutoSizeComments\Intermediate\Build\Win64\UE4Editor\Development\AutoSizeComments\UE4Editor-AutoSizeComments.suppressed.exp
+LogInit: Warning: Still incompatible or missing module: AutoSizeComments
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (40)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+LogModuleManager: Shutting down and abandoning module RenderCore (30)
+LogModuleManager: Shutting down and abandoning module Landscape (28)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+LogModuleManager: Shutting down and abandoning module Renderer (18)
+LogModuleManager: Shutting down and abandoning module Engine (16)
+LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+LogModuleManager: Shutting down and abandoning module PakFile (4)
+LogModuleManager: Shutting down and abandoning module RSA (3)
+LogExit: Exiting.
+Log file closed, 08/27/19 17:15:16
