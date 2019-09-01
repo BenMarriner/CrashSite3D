@@ -15,7 +15,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.22",
-		"BuildId": "dfa9b3ad-25a8-4a8f-bd61-b5a680db005d",
+		"BuildId": "dad9836e-d396-4f91-b7d7-39ea6142010a",
 		"BuildVersion": ""
 	},
 	"BuildProducts": [
@@ -35,10 +35,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/SunPosition/SunPosition.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/AutoSizeComments/AutoSizeComments.uplugin",
 			"Type": "UFS"
 		},
 		{
