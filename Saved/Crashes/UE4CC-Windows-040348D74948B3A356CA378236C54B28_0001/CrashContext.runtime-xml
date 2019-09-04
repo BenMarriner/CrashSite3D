@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>907B17FD48DE3A8F4572D4AFF4130581</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-040348D74948B3A356CA378236C54B28_0001</CrashGUID>
+<ProcessId>31492</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>true</IsSourceDistribution>
+<IsEnsure>true</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<SecondsSinceStart>2927</SecondsSinceStart>
+<GameName>UE4-CrashSite3D</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.22-CL-0-Win64-Development</Symbols>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineModeEx>Dirty</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.22.3-0+++UE4+Release-4.22</EngineVersion>
+<CommandLine> &quot;F:\Epic Games\CrashSite3D\CrashSite3D.uproject&quot;</CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en-AU</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.22-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>F:/Epic Games/UnrealEngine-release/Engine/Binaries/Win64/</BaseDir>
+<RootDir>F:/Epic Games/UnrealEngine-release/</RootDir>
+<MachineId>EBEE79F5498CE73F8B9614A24DE3D062</MachineId>
+<LoginId>ebee79f5498ce73f8b9614a24de3d062</LoginId>
+<EpicAccountId>a9972fe662ee4ff291fbcecb76b8f8ca</EpicAccountId>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+UE4Editor-Engine           0x0000000052580000 + 17d3239 
+UE4Editor-Engine           0x0000000052580000 + 7bb881  
+UE4Editor-UnrealEd         0x0000000059180000 + 3d4dc5  
+UE4Editor-UnrealEd         0x0000000059180000 + 3f62a6  
+UE4Editor-UnrealEd         0x0000000059180000 + 3e2e4c  
+UE4Editor-UnrealEd         0x0000000059180000 + 43ab93  
+UE4Editor-UnrealEd         0x0000000059180000 + 47add8  
+UE4Editor-UnrealEd         0x0000000059180000 + 4191df  
+UE4Editor-UnrealEd         0x0000000059180000 + 3e260c  
+UE4Editor-UnrealEd         0x0000000059180000 + 3dc4b6  
+UE4Editor-UnrealEd         0x0000000059180000 + bac18a  
+UE4Editor-MainFrame        0x00000000392f0000 + 1559e   
+UE4Editor-MainFrame        0x00000000392f0000 + 159fe   
+UE4Editor-Slate            0x00000000738c0000 + 49cca   
+UE4Editor-Slate            0x00000000738c0000 + 7ecfe   
+UE4Editor-MainFrame        0x00000000392f0000 + 24fde   
+UE4Editor-MainFrame        0x00000000392f0000 + 1542e   
+UE4Editor-Slate            0x00000000738c0000 + 80708   
+UE4Editor-Slate            0x00000000738c0000 + 75f9e   
+UE4Editor-ApplicationCore  0x000000009e280000 + 1b55a   
+UE4Editor-ApplicationCore  0x000000009e280000 + ef9f    
+UE4Editor-ApplicationCore  0x000000009e280000 + 1d77f   
+UE4Editor-ApplicationCore  0x000000009e280000 + c090    
+USER32                     0x00000000c8d60000 + 1681d   
+USER32                     0x00000000c8d60000 + 16212   
+UE4Editor-ApplicationCore  0x000000009e280000 + 1e946   
+UE4Editor                  0x000000008ae30000 + 5d3e    
+UE4Editor                  0x000000008ae30000 + 1554c   
+UE4Editor                  0x000000008ae30000 + 155ca   
+UE4Editor                  0x000000008ae30000 + 2316c   
+UE4Editor                  0x000000008ae30000 + 25b8e   
+KERNEL32                   0x00000000c93c0000 + 17bd4   
+ntdll                      0x00000000c9c40000 + 6ce71   
+</PCallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint>Layout=&quot;WidgetDetails&quot; Label=&quot;Details&quot; Content=SWidgetDetailsView</UserActivityHint>
+<ErrorMessage>Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:F:\Epic Games\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2124]
+
+Stack: 
+0x00007ff953d53239 UE4Editor-Engine.dll!&lt;lambda_30f5e5943adf0a66c241e64bed750415&gt;::operator()() [f:\epic games\unrealengine-release\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:2124]
+0x00007ff952d3b881 UE4Editor-Engine.dll!UEdGraphPin::SanitizePinsPostUndoRedo() [f:\epic games\unrealengine-release\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:2124]
+0x00007ff959554dc5 UE4Editor-UnrealEd.dll!UEditorEngine::BroadcastPostUndoRedo() [f:\epic games\unrealengine-release\engine\source\editor\unrealed\private\editorserver.cpp:5117]
+0x00007ff9595762a6 UE4Editor-UnrealEd.dll!UEditorEngine::HandleTransactorRedoUndo() [f:\epic games\unrealengine-release\engine\source\editor\unrealed\private\editorserver.cpp:1195]
+0x00007ff959562e4c UE4Editor-UnrealEd.dll!TBaseUObjectMethodDelegateInstance&lt;0,UEditorEngine,void __cdecl(FTransactionContext const &amp;,bool)&gt;::ExecuteIfSafe() [f:\epic games\unrealengine-release\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:679]
+0x00007ff9595bab93 UE4Editor-UnrealEd.dll!TBaseMulticastDelegate&lt;void,FTransactionContext const &amp;,bool&gt;::Broadcast() [f:\epic games\unrealengine-release\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:977]
+0x00007ff9595fadd8 UE4Editor-UnrealEd.dll!UTransBuffer::Undo() [f:\epic games\unrealengine-release\engine\source\editor\unrealed\private\editortransaction.cpp:1409]
+0x00007ff9595991df UE4Editor-UnrealEd.dll!UEditorEngine::UndoTransaction() [f:\epic games\unrealengine-release\engine\source\editor\unrealed\private\editorserver.cpp:1412]
+0x00007ff95956260c UE4Editor-UnrealEd.dll!UEditorEngine::Exec_Transaction() [f:\epic games\unrealengine-release\engine\source\editor\unrealed\private\editorserver.cpp:5109]
+0x00007ff95955c4b6 UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [f:\epic games\unrealengine-release\engine\source\editor\unrealed\private\editorserver.cpp:5554]
+0x00007ff959d2c18a UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [f:\epic games\unrealengine-release\engine\source\editor\unrealed\private\unrealedsrv.cpp:691]
+0x00007ff93930559e UE4Editor-MainFrame.dll!FMainFrameActionCallbacks::ExecuteExecCommand() [f:\epic games\unrealengine-release\engine\source\editor\mainframe\private\frame\mainframeactions.cpp:1022]
+0x00007ff9393059fe UE4Editor-MainFrame.dll!TBaseStaticDelegateInstance&lt;void __cdecl(void),FString&gt;::ExecuteIfSafe() [f:\epic games\unrealengine-release\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:813]
+0x00007ff973909cca UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() [f:\epic games\unrealengine-release\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:217]
+0x00007ff97393ecfe UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() [f:\epic games\unrealengine-release\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:161]
+0x00007ff939314fde UE4Editor-MainFrame.dll!FMainFrameActionCallbacks::OnUnhandledKeyDownEvent() [f:\epic games\unrealengine-release\engine\source\editor\mainframe\private\frame\mainframeactions.cpp:223]
+0x00007ff93930542e UE4Editor-MainFrame.dll!TBaseStaticDelegateInstance&lt;FReply __cdecl(FKeyEvent const &amp;)&gt;::Execute() [f:\epic games\unrealengine-release\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:760]
+0x00007ff973940708 UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() [f:\epic games\unrealengine-release\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5156]
+0x00007ff973935f9e UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() [f:\epic games\unrealengine-release\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5046]
+0x00007ff99e29b55a UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessDeferredMessage() [f:\epic games\unrealengine-release\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1677]
+0x00007ff99e28ef9f UE4Editor-ApplicationCore.dll!FWindowsApplication::DeferMessage() [f:\epic games\unrealengine-release\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:2292]
+0x00007ff99e29d77f UE4Editor-ApplicationCore.dll!FWindowsApplication::ProcessMessage() [f:\epic games\unrealengine-release\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:1522]
+0x00007ff99e28c090 UE4Editor-ApplicationCore.dll!FWindowsApplication::AppWndProc() [f:\epic games\unrealengine-release\engine\source\runtime\applicationcore\private\windows\windowsapplication.cpp:772]
+0x00007ff9c8d7681d USER32.dll!UnknownFunction []
+0x00007ff9c8d76212 USER32.dll!UnknownFunction []
+0x00007ff99e29e946 UE4Editor-ApplicationCore.dll!FWindowsPlatformApplicationMisc::PumpMessages() [f:\epic games\unrealengine-release\engine\source\runtime\applicationcore\private\windows\windowsplatformapplicationmisc.cpp:130]
+0x00007ff68ae35d3e UE4Editor.exe!FEngineLoop::Tick() [f:\epic games\unrealengine-release\engine\source\runtime\launch\private\launchengineloop.cpp:3882]
+0x00007ff68ae4554c UE4Editor.exe!GuardedMain() [f:\epic games\unrealengine-release\engine\source\runtime\launch\private\launch.cpp:168]
+0x00007ff68ae455ca UE4Editor.exe!GuardedMainWrapper() [f:\epic games\unrealengine-release\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+0x00007ff68ae5316c UE4Editor.exe!WinMain() [f:\epic games\unrealengine-release\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+0x00007ff68ae55b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007ff9c93d7bd4 KERNEL32.DLL!UnknownFunction []
+0x00007ff9c9cace71 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1080 Ti</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 1903)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>34312450048</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>18054647808</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140726409334784</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>3690614784</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>3690618880</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>5321314304</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>5321314304</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 1080 Ti</RHI.AdapterName>
+<RHI.UserDriverVersion>436.15</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>26.21.14.3615</RHI.InternalDriverVersion>
+<RHI.DriverDate>8-24-2019</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+</EngineData>
+<EnabledPlugins>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Paper2D&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;AISupport&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;LightPropagationVolume&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Actor Layer Utilities&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Animation Sharing&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;CLion Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;CodeLite Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 14,
+	&quot;VersionName&quot;: &quot;1.4&quot;,
+	&quot;FriendlyName&quot;: &quot;Git&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;KDevelop Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Linux Compiler-only Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Perforce&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Subversion&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;UObject Example Plugin&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Visual Studio Code Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Visual Studio Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;XCode Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Asset Manager Editor&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;CryptoKeys&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Data Validation&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Facial Animation Bulk Importer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;GameplayTagsEditor&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Mac Graphics Switching&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Material Analyzer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Wizard for mobile packaging scenarios&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Plugin Browser&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;SpeedTree Importer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Datasmith Content&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Variant Manager Content&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Alembic Importer (Experimental)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Apple Image Utils&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Apple Vision API&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1&quot;,
+	&quot;FriendlyName&quot;: &quot;BackChannel&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;CharacterAI&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Geometry Cache (Experimental)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Experimental HTML5 Networking Plugin&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Proxy LOD Plugin (Experimental)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Skeletal Mesh Simplifier (Early Access)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Magic Leap&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Magic Leap Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Android Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;AVF Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Image Sequence Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Linear Timecode Reader&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Media Compositing&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Media Player Editor&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;WebM Video Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;WMF Media Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;TCP Messaging&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;UDP Messaging&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Actor Sequence (Experimental)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Level Sequence Editor&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Matinee to Level Sequence&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Netcode Unit Test&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Netcode Unit Test - Unreal Engine 4&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem GooglePlay&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem iOS&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem NULL&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Online Subsystem Utils&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Launcher Chunk Installer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Android Device Profile Selector&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Android Movie Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Android Runtime Permission&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Apple Movie Player&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;ArchVis Character&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Audio Capture&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Cable Component&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Custom Mesh Component&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Editable Mesh&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Example Device Profile Selector&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Firebase&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Google Cloud Messaging&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;IOS Device Profile Selector&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Linux Device Profile Selector&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Mobile Location Services Blueprints Library&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Mobile Patching Utilities&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.32.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Oculus VR&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;PhysX Vehicles&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Procedural Mesh Component&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Runtime PhysX Cooking&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Significance Manager&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;SteamVR&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Sun Position Calculator&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Movie Player for WebM files&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Windows Movie Player&quot;
+}</Plugin>
+</EnabledPlugins>
+</FGenericCrashContext>
