@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>A3CA54724CF4476287A8F799C0D5FF42</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-77936CD54DF066ACA89FBF9E2EC3C4D3_0000</CrashGUID>
+<ProcessId>26036</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>true</IsSourceDistribution>
+<IsEnsure>true</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<SecondsSinceStart>629</SecondsSinceStart>
+<GameName>UE4-CrashSite3D</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.22-CL-0-Win64-Development</Symbols>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineModeEx>Dirty</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.22.3-0+++UE4+Release-4.22</EngineVersion>
+<CommandLine> ../../../../CrashSite3D/CrashSite3D.uproject</CommandLine>
+<LanguageLCID>1033</LanguageLCID>
+<AppDefaultLocale>en-AU</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.22-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir>F:/Epic Games/UnrealEngine-release/Engine/Binaries/Win64/</BaseDir>
+<RootDir>F:/Epic Games/UnrealEngine-release/</RootDir>
+<MachineId>EBEE79F5498CE73F8B9614A24DE3D062</MachineId>
+<LoginId>ebee79f5498ce73f8b9614a24de3d062</LoginId>
+<EpicAccountId>a9972fe662ee4ff291fbcecb76b8f8ca</EpicAccountId>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+UE4Editor-CoreUObject           0x0000000033f50000 + 3d2647  
+UE4Editor-CoreUObject           0x0000000033f50000 + 8ea0a   
+UE4Editor-SourceControl         0x0000000066940000 + 25615   
+UE4Editor-SourceControl         0x0000000066940000 + 2576b   
+UE4Editor-SourceControlWindows  0x000000001c5e0000 + 78dfc   
+UE4Editor-SourceControlWindows  0x000000001c5e0000 + 359e3   
+UE4Editor-SourceControlWindows  0x000000001c5e0000 + 3522a   
+UE4Editor-SourceControlWindows  0x000000001c5e0000 + 4c451   
+UE4Editor-GitSourceControl      0x0000000010530000 + 2b133   
+UE4Editor-GitSourceControl      0x0000000010530000 + 2fbb1   
+UE4Editor-SourceControl         0x0000000066940000 + 2a3b7   
+UE4Editor-UnrealEd              0x00000000220a0000 + 3b08f5  
+UE4Editor-UnrealEd              0x00000000220a0000 + b91526  
+UE4Editor                       0x000000003d800000 + 6bb1    
+UE4Editor                       0x000000003d800000 + 1554c   
+UE4Editor                       0x000000003d800000 + 155ca   
+UE4Editor                       0x000000003d800000 + 2316c   
+UE4Editor                       0x000000003d800000 + 25b8e   
+KERNEL32                        0x00000000c93c0000 + 17bd4   
+ntdll                           0x00000000c9c40000 + 6ce71   
+</PCallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint>Layout=&quot;LevelEditorViewport&quot; Label=&quot;Viewport 1&quot; Content=SViewportsOverlay</UserActivityHint>
+<ErrorMessage>Ensure condition failed: false [File:F:\Epic Games\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 849]
+Illegal call to DoesPackageExist: &apos;../../../../CrashSite3D/CrashSite3D.uproject&apos; is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+Stack: 
+0x00007ff934322647 UE4Editor-CoreUObject.dll!DispatchCheckVerify&lt;bool,&lt;lambda_55f8b683d6135037ab6977d988fa9b93&gt; &gt;() [f:\epic games\unrealengine-release\engine\source\runtime\core\public\misc\assertionmacros.h:161]
+0x00007ff933fdea0a UE4Editor-CoreUObject.dll!FPackageName::DoesPackageExist() [f:\epic games\unrealengine-release\engine\source\runtime\coreuobject\private\misc\packagename.cpp:849]
+0x00007ff966965615 UE4Editor-SourceControl.dll!PackageFilename_Internal() [f:\epic games\unrealengine-release\engine\source\developer\sourcecontrol\private\sourcecontrolhelpers.cpp:882]
+0x00007ff96696576b UE4Editor-SourceControl.dll!USourceControlHelpers::PackageFilenames() [f:\epic games\unrealengine-release\engine\source\developer\sourcecontrol\private\sourcecontrolhelpers.cpp:937]
+0x00007ff91c658dfc UE4Editor-SourceControlWindows.dll!FSourceControlWindows::PromptForCheckin() [f:\epic games\unrealengine-release\engine\source\editor\sourcecontrolwindows\private\sourcecontrolwindows.cpp:125]
+0x00007ff91c6159e3 UE4Editor-SourceControlWindows.dll!FSourceControlWindows::ChoosePackagesToCheckInCompleted() [f:\epic games\unrealengine-release\engine\source\editor\sourcecontrolwindows\private\sourcecontrolwindows.cpp:377]
+0x00007ff91c61522a UE4Editor-SourceControlWindows.dll!FSourceControlWindows::ChoosePackagesToCheckInCallback() [f:\epic games\unrealengine-release\engine\source\editor\sourcecontrolwindows\private\sourcecontrolwindows.cpp:455]
+0x00007ff91c62c451 UE4Editor-SourceControlWindows.dll!TBaseStaticDelegateInstance&lt;void __cdecl(TSharedRef&lt;ISourceControlOperation,1&gt; const &amp;,enum ECommandResult::Type),TBaseDelegate&lt;void,FCheckinResultInfo const &amp;&gt; &gt;::ExecuteIfSafe() [f:\epic games\unrealengine-release\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:813]
+0x00007ff91055b133 UE4Editor-GitSourceControl.dll!FGitSourceControlCommand::ReturnResults() [f:\epic games\unrealengine-release\engine\plugins\developer\gitsourcecontrol\source\gitsourcecontrol\private\gitsourcecontrolcommand.cpp:58]
+0x00007ff91055fbb1 UE4Editor-GitSourceControl.dll!FGitSourceControlProvider::Tick() [f:\epic games\unrealengine-release\engine\plugins\developer\gitsourcecontrol\source\gitsourcecontrol\private\gitsourcecontrolprovider.cpp:316]
+0x00007ff96696a3b7 UE4Editor-SourceControl.dll!FSourceControlModule::Tick() [f:\epic games\unrealengine-release\engine\source\developer\sourcecontrol\private\sourcecontrolmodule.cpp:244]
+0x00007ff9224508f5 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [f:\epic games\unrealengine-release\engine\source\editor\unrealed\private\editorengine.cpp:1793]
+0x00007ff922c31526 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [f:\epic games\unrealengine-release\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+0x00007ff63d806bb1 UE4Editor.exe!FEngineLoop::Tick() [f:\epic games\unrealengine-release\engine\source\runtime\launch\private\launchengineloop.cpp:3967]
+0x00007ff63d81554c UE4Editor.exe!GuardedMain() [f:\epic games\unrealengine-release\engine\source\runtime\launch\private\launch.cpp:168]
+0x00007ff63d8155ca UE4Editor.exe!GuardedMainWrapper() [f:\epic games\unrealengine-release\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+0x00007ff63d82316c UE4Editor.exe!WinMain() [f:\epic games\unrealengine-release\engine\source\runtime\launch\private\windows\launchwindows.cpp:275]
+0x00007ff63d825b8e UE4Editor.exe!__scrt_common_main_seh() [d:\agent\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007ff9c93d7bd4 KERNEL32.DLL!UnknownFunction []
+0x00007ff9c9cace71 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1080 Ti</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 1903)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>34312450048</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>20434141184</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140728726822912</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>2288889856</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>2289565696</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>3119026176</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>3119759360</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 1080 Ti</RHI.AdapterName>
+<RHI.UserDriverVersion>436.15</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>26.21.14.3615</RHI.InternalDriverVersion>
+<RHI.DriverDate>8-24-2019</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+</EngineData>
+<EnabledPlugins>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;LightPropagationVolume&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Actor Layer Utilities&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Animation Sharing&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 2,
+	&quot;VersionName&quot;: &quot;2.0&quot;,
+	&quot;FriendlyName&quot;: &quot;CLion Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;CodeLite Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 14,
+	&quot;VersionName&quot;: &quot;1.4&quot;,
+	&quot;FriendlyName&quot;: &quot;Git&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;KDevelop Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Linux Compiler-only Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Perforce&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Subversion&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Visual Studio Code Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Visual Studio Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;XCode Integration&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Asset Manager Editor&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;CryptoKeys&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Data Validation&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Plugin Browser&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;SpeedTree Importer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Datasmith Content&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Variant Manager Content&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Magic Leap&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;0.1&quot;,
+	&quot;FriendlyName&quot;: &quot;Actor Sequence (Experimental)&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Launcher Chunk Installer&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Cable Component&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Custom Mesh Component&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Editable Mesh&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.32.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Oculus VR&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Procedural Mesh Component&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;Significance Manager&quot;
+}</Plugin>
+<Plugin>{
+	&quot;Version&quot;: 1,
+	&quot;VersionName&quot;: &quot;1.0&quot;,
+	&quot;FriendlyName&quot;: &quot;SteamVR&quot;
+}</Plugin>
+</EnabledPlugins>
+</FGenericCrashContext>
